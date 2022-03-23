@@ -1,0 +1,15 @@
+@import url('../node_modules/leaflet/dist/leaflet.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.map {
+    height: 60vh;
+}
+
+
+@media (max-width: 640px) {
+    .map {
+        height: 30vh;
+    }
+}
